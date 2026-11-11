@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Ogbole's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <a class="logo" href="index.html"><span class="logo-mark" data-text="brand.mark"></span><span><span data-text="brand.first"></span><b data-text="brand.second"></b></span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul id="navLinks"></ul>
+      <a class="cta" id="ctaLink" href="contact.html"></a>
+    </nav>
+  </header>
+  <main>
+    <section class="split">
+      <div class="avatar-card">
+        <div class="avatar-ring"><img data-src="student.photo" data-alt="student.photoAlt" src="" alt=""></div>
+        <p data-text="student.tagline"></p>
+      </div>
+      <div>
+        <p class="eyebrow">My biography</p>
+        <h1>Hello, I'm <span class="accent" data-text="student.firstName"></span>.</h1>
+        <p class="lead" id="greeting">Welcome to my academic portfolio.</p>
+        <p data-text="student.shortBio"></p>
+      </div>
+    </section>
+    <section class="grid">
+      <a class="card" href="about.html"><h3>About me &rarr;</h3><p>Education, skills and interests.</p></a>
+      <a class="card" href="projects.html"><h3>Projects &rarr;</h3><p>Three things I have built.</p></a>
+      <a class="card" href="planner.html"><h3>Planner &rarr;</h3><p>Manage your academic tasks.</p></a>
+    </section>
+  </main>
+  <footer><p id="footerText"></p></footer>
+  <script src="js/data.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>
